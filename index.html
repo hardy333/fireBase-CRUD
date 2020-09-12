@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+
+
+<div class="container my-5">
+    <h2>Recipes</h2>
+    <ul>
+        <!-- <li>Mushroom pie</li>
+        <li>veg curry</li> -->
+    </ul>
+
+    <form action="">
+        <label for="recipe">Add a new recipe: </label>
+        <div class="input-group">
+            <input type="text" class="form-control" id="recipe" name="text" required >
+            <div class="input-group-append">
+                <input type="submit" value="add" class="btn btn-outline-secondary">
+            </div>
+        </div>
+    </form>
+    <button class="unSub my-5 btn  btn-lg btn-outline-success">Unsubscribe from Changes </button>
+</div>
+
+
+
+<input type="date" class="datetime-local">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ========================================================== -->
+    <!-- ========================================================== -->
+    <!-- ========================================================== -->
+    <!-- ========================================================== -->
+    <!-- ========================================================== -->
+    <!-- ========================================================== -->
+    <!-- ========================================================== -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<!-- <script src="/__/firebase/7.20.0/firebase-app.js"></script> -->
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<!-- <script src="/__/firebase/7.20.0/firebase-analytics.js"></script> -->
+
+<!-- Initialize Firebase -->
+<!-- <script src="/__/firebase/init.js"></script> -->
+
+<!-- ////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////// -->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBm9jypAHSGVNyaJBvuGeV0vpR82p_BJEE",
+    authDomain: "first-firebase-js-project.firebaseapp.com",
+    databaseURL: "https://first-firebase-js-project.firebaseio.com",
+    projectId: "first-firebase-js-project",
+    storageBucket: "first-firebase-js-project.appspot.com",
+    messagingSenderId: "305530357811",
+    appId: "1:305530357811:web:eade0131d335ef82d53b46",
+    measurementId: "G-3WRXC9R4N0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+  firebase.analytics();
+</script>
+
+    <script  src="main.js"></script>
+</body>
+</html>
